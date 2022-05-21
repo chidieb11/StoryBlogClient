@@ -1,0 +1,148 @@
+.bodyContainer {
+  margin: 0 200px;
+}
+
+.bodyMain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.leftBody {
+  flex: 1;
+  width: 23.5vw;
+  margin-right: 10px;
+}
+
+.leftSidebar {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+
+.home,
+.list,
+.about {
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.home:hover,
+.list:hover,
+.about:hover {
+  color: #000;
+}
+
+.centerBody {
+  flex: 1;
+}
+
+.body {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.centerBodyImg {
+  width: 50vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.title h1 {
+  text-align: center;
+}
+.bodyContent {
+  margin: 20px 60px;
+}
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.reaction {
+  margin-top: 10px;
+}
+
+.reaction i {
+  margin-right: 20px;
+  font-size: 10px;
+}
+
+.readTime {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readTime p {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.reactionBtn {
+  width: 5vw;
+  height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #fff;
+  color: gray;
+  cursor: pointer;
+}
+
+.titleDetail {
+  margin-top: 30px;
+}
+
+.titleDetail p {
+  font-size: 14px;
+}
+
+.rightBody {
+  flex: 1;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 100vw;
+  height: 85vh;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.right {
+  padding: 10px;
+  width: 18vw;
+  height: 10px;
+}
+
+.rightImg {
+  width: 16.8vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.rightTitle {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+}
+
+.rightReactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
