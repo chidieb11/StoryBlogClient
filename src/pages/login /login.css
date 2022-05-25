@@ -22,6 +22,17 @@
     opacity: .6;
 }
 
+.loginForm p {
+    margin: 10px 0 0 135px;
+    font-size: 14px;
+}
+
+.loginForm p a {
+    margin-left: 5px;
+    border-bottom: 1px solid gray;
+    opacity: .6;
+}
+
 .loginBtn {
     margin: 10px 0 0 135px;
     width: 4vw;
