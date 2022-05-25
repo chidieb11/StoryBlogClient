@@ -1,4 +1,4 @@
-.loginContainer {
+.registrationContainer{
     margin: 200px 200px;
 }
 
@@ -6,7 +6,7 @@
 /*   margin: auto;*/
 /*}*/
 
-.loginForm input {
+.regForm input{
     width: 30%;
     padding: 10px;
     display: flex;
@@ -19,8 +19,8 @@
     opacity: .6;
 }
 
-.loginBtn {
-    margin: 10px 0 0 420px;
+.regBtn{
+    margin: 10px 0  0 420px;
     width: 4vw;
     height: 4vh;
     border: 1px solid gray;
@@ -30,6 +30,6 @@
     cursor: pointer;
 }
 
-.loginBtn:hover {
+.regBtn:hover{
     font-weight: bold;
 }
