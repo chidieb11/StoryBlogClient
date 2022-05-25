@@ -18,6 +18,12 @@ const Navbar = () => {
               </div>
             </div>
             <div className="rightNav">
+              <Link to='/login'>
+                <button className="navLogin">login</button>
+              </Link>
+              <Link to='/register'>
+                <button className="navRegister">create account</button>
+              </Link>
               <Link to='/new'>
                 <button className="navBtn">create post</button>
               </Link>
