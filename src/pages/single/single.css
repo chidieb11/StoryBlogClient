@@ -1,0 +1,78 @@
+.singleContainer {
+    margin: 10px 200px;
+}
+
+.singleCard {
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+    padding: 0 0 20px 0;
+}
+
+.singleImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.singleElem {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px 100px;
+}
+
+.singleName {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.name {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.datePosted {
+    color: gray
+}
+
+.singleBtn {
+    white-space: nowrap;
+}
+
+.editBtn {
+    margin-right: 10px;
+    width: 4vw;
+    height: 4vh;
+    color: darkgreen;
+    background: none;
+    border: 1px solid darkgreen;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    margin-right: 10px;
+    width: 4vw;
+    height: 4vh;
+    color: darkred;
+    background: none;
+    border: 1px solid darkred;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.singleTitle {
+    margin: 20px 100px;
+}
+
+.singleTitle h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.singlePara {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
