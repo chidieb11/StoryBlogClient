@@ -2,12 +2,15 @@
     margin: 200px 200px;
 }
 
-/*.regForm{*/
-/*   margin: auto;*/
-/*}*/
+.loginForm {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+    margin: auto;
+    padding: 60px 0 100px 0;
+    border-radius: 10px;
+}
 
 .loginForm input {
-    width: 30%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -20,7 +23,7 @@
 }
 
 .loginBtn {
-    margin: 10px 0 0 420px;
+    margin: 10px 0 0 135px;
     width: 4vw;
     height: 4vh;
     border: 1px solid gray;
