@@ -45,5 +45,8 @@
 }
 
 .regBtn:hover {
-    font-weight: bold;
+    background: #f4f4f4;
+    outline: none;
+    border: 1px solid gray;
+    color: gray;
 }
