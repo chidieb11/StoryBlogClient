@@ -1,0 +1,72 @@
+.container {
+    margin: 20px 200px;
+}
+
+.settingsCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 50px 0 0 0;
+    font-size: 30px;
+    opacity: .6;
+}
+
+.settingsImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#user {
+    cursor: pointer;
+}
+
+#user i {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.settingsName,
+.settingsEmail,
+.settingUsername {
+    width: 30vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+    opacity: .6;
+}
+
+.settingsSpan {
+    margin: 0 10px 0 350px;
+    display: flex;
+    align-items: center;
+}
+
+.settingsBtn {
+    width: 10vw;
+    height: 4vh;
+    margin: 40px auto;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    background: none;
+    cursor: pointer;
+}
+
+.settingsBtn:hover {
+    color: gray;
+}
